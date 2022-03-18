@@ -1,0 +1,27 @@
+---
+# At which Y-Coordinates should the player teleported to the spawnpoint?
+y-coords: 0
+
+# Do you want that the player will not get teleported in specially worlds?
+# In this example the player will not get teleported in world 'Test' and 'Test1'
+disabled-worlds:
+  - Test
+  - Test1
+
+# Do you want that the player should get teleported to the spawnpoint of the world he is currently in?
+# If 'false' the player get teleported to the world defined in 'teleport-world'
+enable-spawnpoint: true
+
+# In which world you want that the player get teleported to?
+# Be sure, you set 'enable-spawnpoint' to 'false' to use this.
+level-name: "world"
+
+# Do you want that players will receive a message, when they fell into void?
+# Available options: 'true' or 'false'
+enable-message: true
+
+# Which message should the player receive?
+# Be sure, that 'enable-message' is turned 'true'
+# Tip: You can use {name} to display the player's name.
+message: "You have been saved from the void, {name}."
+...

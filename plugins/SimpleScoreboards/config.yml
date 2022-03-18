@@ -1,0 +1,33 @@
+# Config version, do not edit
+version: 3
+
+# How often scoreboard should be updated in ticks (20 ticks = 1 second)
+# 0 = disabled, ENABLE THIS IF YOU USE PLACEHOLDERS
+# With coordinates 10-20 recommended, with other placeholders 80-200
+update: 5
+
+# Use async task to update the scoreboard
+# Less server load but may lead to random errors
+async: true
+
+# Scoreboard title
+title: "§eMCPE §9SERVER"
+
+# Scoreboard lines
+# You can use § for colors and placeholders from PlaceholderAPI
+text:
+  - "TOP KILL PLAYER : %kdr_topkillsplayer%"
+  - "§1Nama : %player%"
+  - "§aUang : Rp.%economy_money%"
+  - "§6Online : %server_online%/%server_max_players%"
+  - "§5KDR : %kdr_kdr%"
+  - "§9KD KILL : %kdr_kills%"
+  - "§2Time : %time%"
+  - "§3Hand : %player_item_in_hand%"
+  - "§4XP : %player_exp%"
+  - "§6Ping : %player_ping%"
+  - "§8Server TPS : %server_tps%"
+
+# List of worlds where the scoreboard should be disabled
+noScoreboardWorlds:
+  - "exampleWorld"

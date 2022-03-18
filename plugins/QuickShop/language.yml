@@ -1,0 +1,40 @@
+language:
+  '&cYour inventory is not enough to sell': ''
+  ? |-
+    &d+-------INFO-------+
+    &d| &aOwner: &e{}
+    &d| &aItem: &e{}
+    &d| &aPrice: &e{}$ /count
+    &d| &aThis shop is &b{} &aitems
+    &d+------------------+
+  : ''
+  '&cPlease click on your own shop first.': ''
+  '&b/qs sell(s) - Set the current clicked shop as the sell type': ''
+  '&aType: {}': ''
+  '&cYour inventory is full and cannot be purchased': ''
+  '&aSuccessfully purchased &6{}*{}': ''
+  '&c[&l&eQuick&6Shop&r&c]': ''
+  Please enter the &l&ecount &r&ayou need to &d&l{}: ''
+  '&cThat is not your own shop.': ''
+  '&eItem: {}': ''
+  '&b/qs help(h) - View help': ''
+  '&cYour money is not enough to buy,you still need ${} to buy': ''
+  Please enter the &e&lprice &r&ato set up your shop!: ''
+  '&aSuccessfully sold &6{}*{}': ''
+  '&b/qs unlimited(ul) - Set the current clicked shop as unlimited': ''
+  Successfully changed the shop price: ''
+  '&b/qs buy(b) - Set the current clicked shop as the buy type': ''
+  '&cThe shop is out of stock and cannot be sold': ''
+  Successfully changed the shop unlimited[{}]: ''
+  '&cThe owner money is not enough to buy': ''
+  '&aPlayer &e{} &asuccessfully sold &6{}*{} &aand reduce &e{}$': ''
+  '&b/qs price(p) <price: Int> - Set the current clicked shop''s price': ''
+  '&cThe owner''s chest is full!': ''
+  '&cPlease enter the correct number': ''
+  '&aPlayer &e{} &asuccessfully purchased &6{}*{} &aand got &e{}$': ''
+  '&b/qs version(v) - View QuickShop version': ''
+  Successfully changed the shop type: ''
+  Successfully created the shop: ''
+  '&6----QuickShop Command----': ''
+  '&cPlease put a sign around your chest.': ''
+  '&c&lPrice: {}$ /count': ''

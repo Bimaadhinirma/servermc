@@ -1,0 +1,26 @@
+version: 2
+holograms:
+  help:
+    update: -1
+    data: []
+    grid: false
+    grid_normalize: false
+    grid_col_space: 20
+    grid_source: ''
+    grid_header: false
+    column_templates: []
+  example:
+    update: -1
+    data:
+    - - Example hologram
+      - Yes, and second line
+      - '!!!'
+    - - Zkusebni hologram
+      - Ano, druhy radek
+      - '!!!'
+    grid: false
+    grid_normalize: false
+    grid_col_space: 20
+    grid_source: ''
+    grid_header: false
+    column_templates: []

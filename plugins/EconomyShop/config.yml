@@ -1,0 +1,8 @@
+data:
+  save-on-change: true
+language: en
+purchase:
+  tap-twice: true
+  enable-buy: true
+destroy:
+  break: true
