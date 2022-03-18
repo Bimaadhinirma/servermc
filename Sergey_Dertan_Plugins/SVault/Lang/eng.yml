@@ -1,0 +1,59 @@
+=loading.init.update-available: "New version of SVault is available! {@ver}."
+loading.init.update-description: "Whats new? {@description}"
+loading.init.vaults-loaded: "Loaded {@amount} vaults."
+loading.data-provider: "Data provider was set to {@name}"
+
+loading.error.folder: "Can`t create folder {@path}, disabling plugin..."
+loading.error.resource: "Can`t copy resource resource: {@err}, disabling plugin..."
+loading.error.data-provider-error: "Error during initializing {@provider} data provider: {@err}"
+
+save-started: "{@initiator} started saving..."
+save-finished: "Vaults saved."
+
+disabling.start: "Disabling SVault..."
+disabling.success: "SVault disabled."
+
+command.create.permission: "You have no permission"
+command.create.description: "Create new vault"
+command.create.usage: "Required arguments: [VAULT NAME]"
+command.create.in-game: "In game only"
+command.create.wrong-name: "Wrong name"
+command.create.max: "You can`t create more vaults"
+command.create.exists: "Vault with this name already exists"
+command.create.success: "Vault created"
+
+command.open.permission: "You have no permission"
+command.open.description: "Open vault"
+command.open.usage: "Required arguments: [VAULT NAME]"
+command.open.in-game: "In game only"
+command.open.not-found: "Vault for the given name not found"
+
+command.remove.permission: "You have no permission"
+command.remove.description: "Remove vault"
+command.remove.usage: "Required arguments: [VAULT NAME] [OWNER(optional)]"
+command.remove.in-game: "In game only"
+command.remove.not-found: "Vault for the given name not found"
+command.remove.success: "Vault removed"
+
+command.save.permission: "You have no permission"
+command.save.saving: "Saving..."
+
+command.vault.permission: "You have no permission"
+command.vault.description: "SVault"
+command.vault.available-commands: "Available commands:"
+command.vault.command-not-found: "Command {@name} not found"
+
+command.list.permission: "You have no permission"
+command.list.description: "Vault list"
+command.list.in-game: "In game only"
+command.list.list.own: "Your vaults: {@list}"
+command.list.list.other: "{@player}`s vaults: {@list}"
+
+command.migrate.permission: "You have no permission"
+command.migrate.usage: "Required arguments: [FROM] [TO]"
+command.migrate.description: "Migrate"
+command.migrate.same-provider: "You entered two equal providers"
+command.migrate.error: "Cannot instantiate data provider {@provider}"
+command.migrate.success: "Successfully copied {@amount} vaults"
+
+vault-inventory-name: "Vault {@name}"
